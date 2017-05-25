@@ -12,7 +12,7 @@ import org.eclipse.paho.client.mqttv3.MqttTopic;
  */
 public class Subscriber {
 
-    public static final String BROKER_URL = "tcp://broker.hivemq.com:1883";
+    public static final String BROKER_URL = "tcp://192.168.0.104:1883";
 
     //We have to generate a unique Client id.
     String clientId = Utils.getMacAddress() + "-sub";
